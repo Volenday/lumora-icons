@@ -1,0 +1,9 @@
+{
+  "typescript": true,
+  "icon": true,
+  "expandProps": "end",
+  "replaceAttrValues": {
+    "#000": "currentColor"
+  },
+  "prettier": false
+}
