@@ -1,0 +1,11 @@
+import React from "react";
+import { IconBase } from "../components/IconBase";
+import { IconProps } from "../types";
+const Bank: React.FC<IconProps> = ({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}) => {
+  return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M11 2.5 20 7v2H2V7zm4 7.5h4v8h-4zM2 22v-3h18v3zm7-12h4v8H9zm-6 0h4v8H3zm0 10v1h16v-1zm1-9v6h2v-6zm6 0v6h2v-6zm6 0v6h2v-6zM3 8h16v-.4l-8-4.02L3 7.6z" /></IconBase>;
+};
+export default Bank;

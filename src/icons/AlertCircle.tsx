@@ -1,0 +1,11 @@
+import React from "react";
+import { IconBase } from "../components/IconBase";
+import { IconProps } from "../types";
+const AlertCircle: React.FC<IconProps> = ({
+  size = 24,
+  color = "currentColor",
+  ...rest
+}) => {
+  return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M11.5 3a9.5 9.5 0 1 1 0 19 9.5 9.5 0 0 1 0-19m0 1a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17M11 17v-2h1v2zm0-4V8h1v5z" /></IconBase>;
+};
+export default AlertCircle;
