@@ -1,9 +1,10 @@
 {
-  "typescript": true,
-  "icon": true,
-  "expandProps": "end",
-  "replaceAttrValues": {
-    "#000": "currentColor"
-  },
-  "prettier": false
+	"typescript": true,
+	"icon": true,
+	"expandProps": "end",
+	"replaceAttrValues": {
+		"#000": "currentColor"
+	},
+	"prettier": false,
+	"jsxRuntime": "automatic"
 }
