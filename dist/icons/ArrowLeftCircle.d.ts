@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ArrowLeftCircle: React.FC<IconProps>;
+declare const ArrowLeftCircle: FC<IconProps>;
 export default ArrowLeftCircle;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const VectorArrangeAbove: React.FC<IconProps>;
+declare const VectorArrangeAbove: FC<IconProps>;
 export default VectorArrangeAbove;

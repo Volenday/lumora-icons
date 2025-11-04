@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const HeartOff: React.FC<IconProps>;
+declare const HeartOff: FC<IconProps>;
 export default HeartOff;

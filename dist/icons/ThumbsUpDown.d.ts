@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ThumbsUpDown: React.FC<IconProps>;
+declare const ThumbsUpDown: FC<IconProps>;
 export default ThumbsUpDown;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatAlignTop: React.FC<IconProps>;
+declare const FormatAlignTop: FC<IconProps>;
 export default FormatAlignTop;

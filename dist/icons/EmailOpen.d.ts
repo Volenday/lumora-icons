@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const EmailOpen: React.FC<IconProps>;
+declare const EmailOpen: FC<IconProps>;
 export default EmailOpen;

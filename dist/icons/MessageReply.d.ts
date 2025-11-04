@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const MessageReply: React.FC<IconProps>;
+declare const MessageReply: FC<IconProps>;
 export default MessageReply;

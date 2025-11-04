@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Download: React.FC<IconProps>;
+declare const Download: FC<IconProps>;
 export default Download;

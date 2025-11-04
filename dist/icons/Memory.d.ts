@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Memory: React.FC<IconProps>;
+declare const Memory: FC<IconProps>;
 export default Memory;

@@ -19,8 +19,8 @@ export default defineConfig(({ command }) => {
 
   // Build mode: build the component library
   return {
+    // Use esbuild for JSX transform during library build to avoid dev runtime output
     plugins: [
-      react({ jsxRuntime: "automatic", jsxImportSource: "react" }),
       tsconfigPaths(),
       dts({ insertTypesEntry: true }),
     ],
@@ -47,6 +47,13 @@ export default defineConfig(({ command }) => {
           },
         },
       },
+      // Ensure production JSX runtime is used
+      target: "es2022",
+    },
+    esbuild: {
+      jsx: "automatic",
+      jsxImportSource: "react",
+      jsxDev: false
     },
   };
 });

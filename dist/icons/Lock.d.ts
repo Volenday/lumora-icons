@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Lock: React.FC<IconProps>;
+declare const Lock: FC<IconProps>;
 export default Lock;

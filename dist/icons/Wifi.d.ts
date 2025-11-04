@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Wifi: React.FC<IconProps>;
+declare const Wifi: FC<IconProps>;
 export default Wifi;

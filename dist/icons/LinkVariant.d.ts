@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const LinkVariant: React.FC<IconProps>;
+declare const LinkVariant: FC<IconProps>;
 export default LinkVariant;

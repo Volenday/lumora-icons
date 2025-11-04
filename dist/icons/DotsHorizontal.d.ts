@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const DotsHorizontal: React.FC<IconProps>;
+declare const DotsHorizontal: FC<IconProps>;
 export default DotsHorizontal;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Refresh: React.FC<IconProps>;
+declare const Refresh: FC<IconProps>;
 export default Refresh;

@@ -1,9 +1,9 @@
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
-const BorderOutside: React.FC<IconProps> = ({
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
+const BorderOutside: FC<IconProps> = ({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   ...rest
 }) => {
   return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M3 4h17v17H3zm1 1v7h1v1H4v7h7v-1h1v1h7v-7h-1v-1h1V5h-7v1h-1V5zm3 7h2v1H7zm4 0h1v1h-1zm0 3h1v2h-1zm3-3h2v1h-2zm-3-2V8h1v2z" /></IconBase>;

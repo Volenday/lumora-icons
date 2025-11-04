@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const StarHalf: React.FC<IconProps>;
+declare const StarHalf: FC<IconProps>;
 export default StarHalf;

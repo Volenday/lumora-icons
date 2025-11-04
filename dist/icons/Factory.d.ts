@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Factory: React.FC<IconProps>;
+declare const Factory: FC<IconProps>;
 export default Factory;

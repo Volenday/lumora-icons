@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Wallet: React.FC<IconProps>;
+declare const Wallet: FC<IconProps>;
 export default Wallet;

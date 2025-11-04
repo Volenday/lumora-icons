@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Xml: React.FC<IconProps>;
+declare const Xml: FC<IconProps>;
 export default Xml;

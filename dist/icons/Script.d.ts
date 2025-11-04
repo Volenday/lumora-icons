@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Script: React.FC<IconProps>;
+declare const Script: FC<IconProps>;
 export default Script;

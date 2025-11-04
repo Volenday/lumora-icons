@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ContentPaste: React.FC<IconProps>;
+declare const ContentPaste: FC<IconProps>;
 export default ContentPaste;

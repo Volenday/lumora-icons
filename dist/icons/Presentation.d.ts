@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Presentation: React.FC<IconProps>;
+declare const Presentation: FC<IconProps>;
 export default Presentation;
