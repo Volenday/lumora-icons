@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const GenderMale: React.FC<IconProps>;
+declare const GenderMale: FC<IconProps>;
 export default GenderMale;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const MessageVideo: React.FC<IconProps>;
+declare const MessageVideo: FC<IconProps>;
 export default MessageVideo;

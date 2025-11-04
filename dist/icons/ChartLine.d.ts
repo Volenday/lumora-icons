@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ChartLine: React.FC<IconProps>;
+declare const ChartLine: FC<IconProps>;
 export default ChartLine;

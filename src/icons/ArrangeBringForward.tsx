@@ -1,9 +1,9 @@
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
-const ArrangeBringForward: React.FC<IconProps> = ({
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
+const ArrangeBringForward: FC<IconProps> = ({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   ...rest
 }) => {
   return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M8 9h4v1H9.71l6.71 6.72-.7.7L9 10.71V13H8zM3 4h12v9l-1-1V5H4v10h7l1 1H3zm17 5v12H8v-3h1v2h10V10h-2V9z" /></IconBase>;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatListBulleted: React.FC<IconProps>;
+declare const FormatListBulleted: FC<IconProps>;
 export default FormatListBulleted;

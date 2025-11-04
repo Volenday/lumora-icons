@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const BorderRight: React.FC<IconProps>;
+declare const BorderRight: FC<IconProps>;
 export default BorderRight;

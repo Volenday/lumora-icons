@@ -1,9 +1,9 @@
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
-const CommentText: React.FC<IconProps> = ({
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
+const CommentText: FC<IconProps> = ({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   ...rest
 }) => {
   return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M5 3h13a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-4.59l-3.7 3.71c-.18.18-.43.29-.71.29a1 1 0 0 1-1-1v-3H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3m13 1H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h4v4l4-4h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M5 7h13v1H5zm0 3h12v1H5zm0 3h8v1H5z" /></IconBase>;

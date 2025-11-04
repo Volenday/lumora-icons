@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ViewDashboard: React.FC<IconProps>;
+declare const ViewDashboard: FC<IconProps>;
 export default ViewDashboard;

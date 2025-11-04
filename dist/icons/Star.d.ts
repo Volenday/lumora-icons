@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Star: React.FC<IconProps>;
+declare const Star: FC<IconProps>;
 export default Star;

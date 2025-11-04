@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Bluetooth: React.FC<IconProps>;
+declare const Bluetooth: FC<IconProps>;
 export default Bluetooth;

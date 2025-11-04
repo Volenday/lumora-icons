@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const CheckCircle: React.FC<IconProps>;
+declare const CheckCircle: FC<IconProps>;
 export default CheckCircle;

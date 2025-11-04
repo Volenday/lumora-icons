@@ -1,9 +1,9 @@
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
-const Power: React.FC<IconProps> = ({
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
+const Power: FC<IconProps> = ({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   ...rest
 }) => {
   return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M11 13V4h1v9zm8-.5a7.5 7.5 0 0 1-15 0c0-2.71 1.44-5.09 3.6-6.4l.73.73A6.48 6.48 0 0 0 5 12.5a6.5 6.5 0 0 0 13 0c0-2.44-1.34-4.56-3.33-5.67l.73-.73a7.48 7.48 0 0 1 3.6 6.4" /></IconBase>;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatClear: React.FC<IconProps>;
+declare const FormatClear: FC<IconProps>;
 export default FormatClear;

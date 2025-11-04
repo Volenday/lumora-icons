@@ -1,9 +1,9 @@
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
-const Crop: React.FC<IconProps> = ({
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
+const Crop: FC<IconProps> = ({
   size = 24,
-  color = "currentColor",
+  color = 'currentColor',
   ...rest
 }) => {
   return <IconBase size={size} color={color} {...rest}><path fill="currentColor" d="M8 6h7a3 3 0 0 1 3 3v7h-1V9a2 2 0 0 0-2-2H8zm0 13a3 3 0 0 1-3-3V7H1V6h4V2h1v14a2 2 0 0 0 2 2h13v1h-3v4h-1v-4z" /></IconBase>;

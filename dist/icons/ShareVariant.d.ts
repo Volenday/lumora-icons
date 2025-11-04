@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ShareVariant: React.FC<IconProps>;
+declare const ShareVariant: FC<IconProps>;
 export default ShareVariant;

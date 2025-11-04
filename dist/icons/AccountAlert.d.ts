@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const AccountAlert: React.FC<IconProps>;
+declare const AccountAlert: FC<IconProps>;
 export default AccountAlert;

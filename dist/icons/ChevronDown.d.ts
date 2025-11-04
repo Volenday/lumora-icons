@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ChevronDown: React.FC<IconProps>;
+declare const ChevronDown: FC<IconProps>;
 export default ChevronDown;

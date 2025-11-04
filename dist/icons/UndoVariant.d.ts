@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const UndoVariant: React.FC<IconProps>;
+declare const UndoVariant: FC<IconProps>;
 export default UndoVariant;

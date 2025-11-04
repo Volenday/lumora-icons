@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const RepeatOff: React.FC<IconProps>;
+declare const RepeatOff: FC<IconProps>;
 export default RepeatOff;

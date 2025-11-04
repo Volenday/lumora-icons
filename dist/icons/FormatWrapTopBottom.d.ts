@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatWrapTopBottom: React.FC<IconProps>;
+declare const FormatWrapTopBottom: FC<IconProps>;
 export default FormatWrapTopBottom;

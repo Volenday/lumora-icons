@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const CropFree: React.FC<IconProps>;
+declare const CropFree: FC<IconProps>;
 export default CropFree;

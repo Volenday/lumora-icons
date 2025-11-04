@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatQuoteClose: React.FC<IconProps>;
+declare const FormatQuoteClose: FC<IconProps>;
 export default FormatQuoteClose;

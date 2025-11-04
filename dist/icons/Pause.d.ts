@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const Pause: React.FC<IconProps>;
+declare const Pause: FC<IconProps>;
 export default Pause;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const BellOff: React.FC<IconProps>;
+declare const BellOff: FC<IconProps>;
 export default BellOff;

@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const FormatLineSpacing: React.FC<IconProps>;
+declare const FormatLineSpacing: FC<IconProps>;
 export default FormatLineSpacing;

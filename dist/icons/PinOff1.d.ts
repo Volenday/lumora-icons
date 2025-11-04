@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const PinOff1: React.FC<IconProps>;
+declare const PinOff1: FC<IconProps>;
 export default PinOff1;

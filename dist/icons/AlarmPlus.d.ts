@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const AlarmPlus: React.FC<IconProps>;
+declare const AlarmPlus: FC<IconProps>;
 export default AlarmPlus;

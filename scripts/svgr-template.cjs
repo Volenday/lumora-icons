@@ -32,13 +32,13 @@ module.exports = function template(variables, { tpl }) {
   }
 
   return tpl`
-import React from "react";
-import { IconBase } from "../components/IconBase";
-import { IconProps } from "../types";
+import type { FC } from 'react';
+import { IconBase } from '../components/IconBase';
+import { IconProps } from '../types';
 
-const ${cleanName}: React.FC<IconProps> = ({
+const ${cleanName}: FC<IconProps> = ({
 	size = 24,
-	color = "currentColor",
+	color = 'currentColor',
 	...rest
 }) => {
 	return (

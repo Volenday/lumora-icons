@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const TooltipText: React.FC<IconProps>;
+declare const TooltipText: FC<IconProps>;
 export default TooltipText;

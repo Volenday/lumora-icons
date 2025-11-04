@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const ClipboardPlus: React.FC<IconProps>;
+declare const ClipboardPlus: FC<IconProps>;
 export default ClipboardPlus;

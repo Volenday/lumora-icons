@@ -1,4 +1,4 @@
-import { default as React } from 'react';
+import { FC } from 'react';
 import { IconProps } from '../types';
-declare const CreditCard: React.FC<IconProps>;
+declare const CreditCard: FC<IconProps>;
 export default CreditCard;
